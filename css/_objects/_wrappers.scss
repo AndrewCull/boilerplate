@@ -1,0 +1,24 @@
+.o-site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+.o-wrapper {
+  margin: 0 auto;
+  padding: 0 12px;
+  max-width: $width-content;
+  flex: 1;
+}
+
+@media all and (min-width: 480px) {
+  .o-container {
+    padding: 0 24px;
+  }
+}
+@media all and (min-width: 720px) {
+  .o-container {
+    padding: 0 48px;
+  }
+}

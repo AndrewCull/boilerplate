@@ -1,0 +1,28 @@
+.c-navigation {
+
+@media screen and (max-width: 720px) {
+  -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+
+}
+
+.c-navigation__horizontal--left {
+  ul {
+    display: block;
+
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: $color-brand;
+  }
+}

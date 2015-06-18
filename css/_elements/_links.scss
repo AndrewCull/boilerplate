@@ -1,0 +1,16 @@
+a {
+    text-decoration: underline;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+        color: $color-link-hover;
+    }
+
+}
+
+
+.e-navlink {
+  display: block;
+  text-decoration: none;
+}

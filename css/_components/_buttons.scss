@@ -1,0 +1,17 @@
+.c-btn {
+    display: inline-block;
+    padding: (0.25 * $base-spacing-unit) $base-spacing-unit;
+    text-decoration: none;
+    background-color: #fff;
+    color: $color-btn;
+    border: 2px solid $color-btn;
+    border-radius: $base-radius;
+    transition: background-color 0.2s;
+
+    &:hover,
+    &:focus {
+        background-color: $color-btn-hover;
+        color: #fff;
+    }
+
+}
